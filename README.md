@@ -118,4 +118,8 @@ ros2 run mycobot_280piteleop_keyboard <br>
 
 **Home Pose:** <br>
 Upon the initial execution of the launch file, all joint angles reset to zero. The robot autonomously navigates to the home position from any random initial pose. Alternatively, when the robot arm is at either the ’pick’ or ’place’ poses, pressing the ’7’ key on the keyboard will promptly return all joint angles to the home pose.<br>
+![home](Home_pose.png)
 
+**Pick Pose:** <br>
+The ’Pick’ pose maneuvers the robot arm into a position suitable for object grasping. When the robot arm is currently at either the ’Home’ or ’Place’ poses, pressing the ’5’ key on the keyboard will instantly adjust all joint angles to align with the ’Pick’ pose.<br>
+![pick](Pick_Pose.png)
