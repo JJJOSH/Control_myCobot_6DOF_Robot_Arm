@@ -7,5 +7,6 @@ This project presents the keyboard buttons control of a 6-degree-of-freedom MYCo
 2. Desktop computer, Keyboard, HDMI cable.
 
 # Installation and Setup
+The myCobot is connected to the power supply which turns on the robot arm. HDMI, Mouse, and keyboard cables connect to the robot arm which enables the robot setup process to be seamless. A built-in Ubuntu 18.04 Mate Linux imager is installed into the robot raspberry pi which serves as the desktop operating system for the myCobot 280pi robot arm. Setup, updates and all ROS2 packages installation is perform. The installing time for setting up the robot is approximately 8 hours long.
 
 
