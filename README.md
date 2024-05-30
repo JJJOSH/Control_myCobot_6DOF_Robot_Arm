@@ -38,13 +38,16 @@ cd ˜/colcon_ws/src<br>
 **use git clone, to get the myCobot**
 package which will be edit to the code implemented in this project<br>
 git clone https://github.com/elephantrobotics/mycobot_ros2.git<br>
-**move back to workspace**
-cd ..
-**Build the project workspace**
-colcon build --symlink-install
+**move back to workspace**<br>
+cd ..<br>
+**Build the project workspace**<br>
+colcon build --symlink-install<br>
 
-**source the project work environment**
-source install/setup.bash
+**source the project work environment**<br>
+source install/setup.bash<br>
+
+**Install the pymcobot**
+pip install pymycobot <br>
 
 
 
