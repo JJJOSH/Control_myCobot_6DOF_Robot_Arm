@@ -30,16 +30,14 @@ The myCobot is connected to the power supply which turns on the robot arm. HDMI,
    **use for installing pip**
 3. sudo apt install python-pip
 
-****Next, create the workspace and install the myCobot package****
-**Created a folder**
-mkdir -p ˜/colcon_ws/src
+**Next, create the workspace and install the myCobot package**<br>
+**Created a folder**<br>
+mkdir -p ˜/colcon_ws/src<br>
 **Enter the folder**
-cd ˜/colcon_ws/src
+cd ˜/colcon_ws/src<br>
 **use git clone, to get the myCobot**
-package which will be edit to the
-code implemented in this project
-git clone https://github.com/
-elephantrobotics/mycobot_ros2.git
+package which will be edit to the code implemented in this project<br>
+git clone https://github.com/elephantrobotics/mycobot_ros2.git<br>
 **move back to workspace**
 cd ..
 **Build the project workspace**
