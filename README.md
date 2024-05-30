@@ -50,5 +50,6 @@ source install/setup.bash<br>
 pip install pymycobot <br>
 
 
-
+# Extract each Joint Angles 
+Following the preliminary stage, prior to programming the launch file for interfacing with the robot, a graphical user interface (GUI) for controlling the robot arm joints is employed. This GUI facilitates the extraction of essential joint angles crucial for implementing intelligent route planning within the robot arm system. Activation of the myCobot joint GUI involves utilizing a ROS2 terminal and a specific snippet code embedded within a launch file. Through this interface, three distinct poses, namely the home, pick, and place poses, are meticulously configured, contributing to the comprehensive setup of the robotic arm’s operational parameters.
 
