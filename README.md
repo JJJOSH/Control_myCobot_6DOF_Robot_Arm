@@ -5,6 +5,7 @@ This project presents the keyboard buttons control of a 6-degree-of-freedom MYCo
 # Components needed 
 1. MyCobot robotic arm
 2. Desktop computer, Keyboard, HDMI cable.
+3. Visual Studio Code (VS Code)
 
 # Specifications of Mycobot Robot Arm
 6 DOF  <br>
@@ -54,8 +55,10 @@ pip install pymycobot <br>
 Following the preliminary stage, prior to programming the launch file for interfacing with the robot, a graphical user interface (GUI) for getting the robot arm joints angles is employed. This GUI facilitates the extraction of essential joint angles crucial for implementing intelligent route planning within the robot arm system. Activation of the myCobot joint GUI involves utilizing a ROS2 terminal and a specific snippet code embedded within a launch file. Through this interface, three distinct poses, namely the home, pick, and place poses, are meticulously configured, contributing to the comprehensive setup of the robotic arm’s operational parameters.
 
 The initial pose corresponds to the robot’s home position, where all joint angles are uniformly set to zero. In this configuration, the robot arm’s links align vertically, forming the pose (0,0,0,0,0,0). Following this, the pick pose is established, characterized by joint angles (0, 30, 60, 80, 0, 45). Lastly, the place pose is defined, featuring joint angles (0,-45, -45, 60, 0, 45). <br>
-**Command line use to launch GUI**
-ros2 run mycobot_280pisimple_gui.launch.py
+**Command line use to launch GUI** <br>
+ros2 run mycobot_280pisimple_gui.launch.py<br>
 
-
+# Python Scripting Programming
+The set of Python code adjustments integrated into the myCobot’s keyboard launch enables the control system to harmonize effortlessly with the project’s predefined goals and operational criteria. These customized modifications guarantee that the keyboard launch adeptly coordinates the myCobot’s activities, precisely adhering to the project’s unique
+prerequisites and objectives.<br>
 
