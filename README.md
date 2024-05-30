@@ -122,13 +122,13 @@ Upon the initial execution of the launch file, all joint angles reset to zero. T
 
 **Pick Pose:** <br>
 The ’Pick’ pose maneuvers the robot arm into a position suitable for object grasping. When the robot arm is currently at either the ’Home’ or ’Place’ poses, pressing the ’5’ key on the keyboard will instantly adjust all joint angles to align with the ’Pick’ pose.<br>
-![pick](Pick_Pose.png)
+![pick](Pick_Pose.png)<br>
 
 **Place Pose:** <br>
 The ’Place’ pose positions the robot arm to deposit an object at a specified location. When the robot arm is in the ’Pick’ pose, pressing the ’6’ key on the keyboard prompts autonomous movement to transition from the ’Pick’ pose to the ’Place’ pose. This action readjusts all joint angles to align with the ’Place’ pose.
-![place](place_pose.png)
+![place](place_pose.png) <br>
 
 
 # FUTURE WORKS
-Incorporating a feedback loop into the setup stands as an essential step, vital for expanding the spectrum of applications for the robot. Furthermore, a significant advancement involves the adoption of a digital twin model for the mycobot. This transition entails replacing the conventional keyboard interface with a more intuitive and user-friendly control system, ultimately amplifying the robot arm’s interactivity and usability. Achieving this involves simulating the mycobot within Gazebo and RVIZ, harnessing the potential of ROS packages to facilitate real-time control and seamless synchronization between the digital twin and the physical robot. Additionally, further enhancements to
+Incorporating a feedback loop into the setup stands as an essential step, vital for expanding the spectrum of applications for the robot. Furthermore, a significant advancement involves the adoption of a digital twin model for the mycobot. This transition entails replacing the conventional keyboard interface with a more intuitive and user-friendly control system, ultimately amplifying the robot arm’s interactivity and usability. Achieving this involves simulating the mycobot within Gazebo and RVIZ, harnessing the potential of ROS packages to facilitate real-time control and seamless synchronization between the digital twin and the physical robot. Additionally, further enhancements to
 bolster autonomous control encompass integrating a camera endowed with artificial intelligence (AI) capabilities. This innovative addition empowers the robot arm to not only recognize but also proficiently grasp and place objects, significantly augmenting its functionalities.
