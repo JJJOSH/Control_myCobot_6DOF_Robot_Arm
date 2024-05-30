@@ -127,7 +127,7 @@ The ’Pick’ pose maneuvers the robot arm into a position suitable for object 
 ![pick](Pick_Pose.png)<br>
 
 **Place Pose:** <br>
-The ’Place’ pose positions the robot arm to deposit an object at a specified location. When the robot arm is in the ’Pick’ pose, pressing the ’6’ key on the keyboard prompts autonomous movement to transition from the ’Pick’ pose to the ’Place’ pose. This action readjusts all joint angles to align with the ’Place’ pose.
+The ’Place’ pose positions the robot arm to deposit an object at a specified location. When the robot arm is in the ’Pick’ pose, pressing the ’6’ key on the keyboard prompts autonomous movement to transition from the ’Pick’ pose to the ’Place’ pose. This action readjusts all joint angles to align with the ’Place’ pose. <br>
 ![place](place_pose.png) <br>
 
 
