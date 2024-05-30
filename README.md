@@ -121,11 +121,11 @@ Upon the initial execution of the launch file, all joint angles reset to zero. T
 ![home](Home_pose.png)
 
 **Pick Pose:** <br>
-The ’Pick’ pose maneuvers the robot arm into a position suitable for object grasping. When the robot arm is currently at either the ’Home’ or ’Place’ poses, pressing the ’5’ key on the keyboard will instantly adjust all joint angles to align with the ’Pick’ pose.<br>
+The ’Pick’ pose maneuvers the robot arm into a position suitable for object grasping. When the robot arm is currently at either the ’Home’ or ’Place’ poses, pressing the ’5’ key on the keyboard will instantly adjust all joint angles to align with the ’Pick’ pose.<br>
 ![pick](Pick_Pose.png)
 
 **Place Pose:** <br>
-The ’Place’ pose positions the robot arm to deposit an object at a specified location. When the robot arm is in the ’Pick’ pose, pressing the ’6’ key on the keyboard prompts autonomous movement to transition from the ’Pick’ pose to the ’Place’ pose. This action readjusts all joint angles to align with the ’Place’ pose.
+The ’Place’ pose positions the robot arm to deposit an object at a specified location. When the robot arm is in the ’Pick’ pose, pressing the ’6’ key on the keyboard prompts autonomous movement to transition from the ’Pick’ pose to the ’Place’ pose. This action readjusts all joint angles to align with the ’Place’ pose.
 ![place](place_pose.png)
 
 
