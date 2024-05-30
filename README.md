@@ -62,3 +62,17 @@ ros2 run mycobot_280pisimple_gui.launch.py<br>
 The set of Python code adjustments integrated into the myCobot’s keyboard launch enables the control system to harmonize effortlessly with the project’s predefined goals and operational criteria. These customized modifications guarantee that the keyboard launch adeptly coordinates the myCobot’s activities, precisely adhering to the project’s unique
 prerequisites and objectives.<br>
 
+sped= 50 %set robot speed to 50
+% set the poses values with sped
+hom_pose=[[0, 0, 0, 0, 0, 0],sped]
+pick_pose=[[0, 30, 60, 80, 0,
+45],sped]
+place_pose=[[0, 0, 0, 0, 0, 0],sped]
+% create the function for controlling
+each pose.
+elif key in "5":
+pc.send_angles(*pick_pose)
+elif key in "6":
+pc.send_angles(*place_pose)
+elif key in "7":
+pc.send_angles(*hom_pose)
