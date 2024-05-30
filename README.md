@@ -108,3 +108,14 @@ Calls the mycobot_pose_control function.<br>
 Script Entry Point:<br>
 Ensures the main function runs when the script is executed directly.<br>
 
+
+
+# Result
+The Python script program is seamlessly integrated into the myCobot package, enhancing its functionality to trigger designated poses upon the precise button press. This integration ensures that each predefined pose is activated accordingly, allowing for streamlined execution and control of the myCobot’s movements through the keyboard interface.<br>
+
+**Command line for executing the launching Pyhon script:** <br>
+ros2 run mycobot_280piteleop_keyboard <br>
+
+**Home Pose:** <br>
+Upon the initial execution of the launch file, all joint angles reset to zero. The robot autonomously navigates to the home position from any random initial pose. Alternatively, when the robot arm is at either the ’pick’ or ’place’ poses, pressing the ’7’ key on the keyboard will promptly return all joint angles to the home pose.<br>
+
