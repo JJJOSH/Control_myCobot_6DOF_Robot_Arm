@@ -23,4 +23,31 @@ Master control Memory	2GB<br>
 # Installation and Setup
 The myCobot is connected to the power supply which turns on the robot arm. HDMI, Mouse, and keyboard cables connect to the robot arm which enables the robot setup process to be seamless. A built-in Ubuntu 18.04 Mate Linux imager is installed into the robot raspberry pi which serves as the desktop operating system for the myCobot 280pi robot arm. Setup, updates and all ROS2 packages installation is perform. The installing time for setting up the robot is approximately 8 hours long.
 
+**Installing git**
+1. sudo apt install git
+   **confirming the git version installed**
+2. git --version
+   **use for installing pip**
+3. sudo apt install python-pip
+
+****Next, create the workspace and install the myCobot package****
+**Created a folder**
+mkdir -p ˜/colcon_ws/src
+**Enter the folder**
+cd ˜/colcon_ws/src
+**use git clone, to get the myCobot**
+package which will be edit to the
+code implemented in this project
+git clone https://github.com/
+elephantrobotics/mycobot_ros2.git
+**move back to workspace**
+cd ..
+**Build the project workspace**
+colcon build --symlink-install
+
+**source the project work environment**
+source install/setup.bash
+
+
+
 
