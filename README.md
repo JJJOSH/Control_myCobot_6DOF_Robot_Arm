@@ -6,6 +6,20 @@ This project presents the keyboard buttons control of a 6-degree-of-freedom MYCo
 1. MyCobot robotic arm
 2. Desktop computer, Keyboard, HDMI cable.
 
+# Specifications of Mycobot Robot Arm
+6 DOF  <br>
+280 Working Radius（mm）<br>
+250 Payload（g）<br>
+860 Weight（g）<br>
+± 0.5 Positioning Accuracy（mm）<br>
+500 Working Lifespan（h）	<br>
+12V5A Power Input	DC <br>
+USB	USB 3.0*2USB 2.0*2<br>
+Main control type	Raspberry pi<br>
+Master control CPU	Broadcom BCM2711，64Bit 1.5GHz four-core<br>
+Master control GPU	500 MHz VideoCore VI<br>
+Master control Memory	2GB<br>
+
 # Installation and Setup
 The myCobot is connected to the power supply which turns on the robot arm. HDMI, Mouse, and keyboard cables connect to the robot arm which enables the robot setup process to be seamless. A built-in Ubuntu 18.04 Mate Linux imager is installed into the robot raspberry pi which serves as the desktop operating system for the myCobot 280pi robot arm. Setup, updates and all ROS2 packages installation is perform. The installing time for setting up the robot is approximately 8 hours long.
 
