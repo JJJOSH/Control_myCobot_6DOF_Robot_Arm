@@ -75,3 +75,36 @@ elif key in "6":<br>
     pc.send_angles(*place_pose)<br>
 elif key in "7":<br>
     pc.send_angles(*hom_pose)<br>
+
+**A summary of its key componets and functionality of the python script:**<br>
+Imports:<br>
+print_function from __future__ for compatibility with Python 2 and 3.<br>
+MyCobot class from pymycobot.mycobot.<br>
+Modules sys, termios, tty, and time for terminal I/O and timing functions.<br>
+
+Utility Function:<br>
+vels(sped, turn): Formats and returns the speed and change percentage as a string.<br>
+
+Raw Class:<br>
+A context manager for setting the terminal to raw mode, allowing for real-time keyboard input handling.<br>
+
+mycobot_pose_control Function:<br>
+Initializes a MyCobot object with specific communication parameters.<br>
+Sets initial speed and change percentage values.<br>
+Defines three poses: hom_pose, pick_pose, and place_pose, each with associated angles and speed.<br>
+Sends the robot to the home pose and waits for confirmation.<br>
+
+Enters a loop to monitor keyboard inputs:<br>
+k to release all servos and exit.<br>
+5 to move to the pick pose.<br>
+6 to move to the place pose.<br>
+7 to return to the home pose.<br>
+3 to update the home pose with current angles.<br>
+Handles exceptions to ensure the loop continues running smoothly.<br>
+
+main Function:<br>
+Calls the mycobot_pose_control function.<br>
+
+Script Entry Point:<br>
+Ensures the main function runs when the script is executed directly.<br>
+
