@@ -127,3 +127,8 @@ The ’Pick’ pose maneuvers the robot arm into a position suitable for object 
 **Place Pose:** <br>
 The ’Place’ pose positions the robot arm to deposit an object at a specified location. When the robot arm is in the ’Pick’ pose, pressing the ’6’ key on the keyboard prompts autonomous movement to transition from the ’Pick’ pose to the ’Place’ pose. This action readjusts all joint angles to align with the ’Place’ pose.
 ![place](place_pose.png)
+
+
+# FUTURE WORKS
+Incorporating a feedback loop into the setup stands as an essential step, vital for expanding the spectrum of applications for the robot. Furthermore, a significant advancement involves the adoption of a digital twin model for the mycobot. This transition entails replacing the conventional keyboard interface with a more intuitive and user-friendly control system, ultimately amplifying the robot arm’s interactivity and usability. Achieving this involves simulating the mycobot within Gazebo and RVIZ, harnessing the potential of ROS packages to facilitate real-time control and seamless synchronization between the digital twin and the physical robot. Additionally, further enhancements to
+bolster autonomous control encompass integrating a camera endowed with artificial intelligence (AI) capabilities. This innovative addition empowers the robot arm to not only recognize but also proficiently grasp and place objects, significantly augmenting its functionalities.
